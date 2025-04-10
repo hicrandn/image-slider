@@ -27,10 +27,11 @@ const Slider = () => {
         </div>
 
         {/* Description */}
-        <div className='relative sm:w-[400px] sm:h-[400px] w-[300px] h-[300px] mt-22 lg:mt-5'>
+        
+        <div className='relative sm:w-[400px] sm:h-[400px] w-[300px] h-[300px] mt-22 lg:mt-5 '>
           {captions.map((cap, i) => (
             <p
-              className={`text-center   sm:text-xl text-gray-600 absolute 
+              className={` sm:text-xl text-gray-600 absolute 
                 transition-all duration-300
                 ${i === index ? "activeCap delay-200" : "inactiveCap"}`}
               key={i}
@@ -38,11 +39,13 @@ const Slider = () => {
               {cap}
             </p>
           ))}
-        </div>
+        
+        
       </div>
 
-      {/* Arrows */}
-      <div className='absolute bottom-0 lg:bottom-20 left-1/2 translate-x-1/2 flex gap-x-5'>
+      <div className='flex sm:flex m-5'>
+
+      <div className="absolute bottom-0 sm:bottom-8 left-1/2 -translate-x-1/2 flex gap-x-5">
         <button
           className='bg-gray-100 p-1.5 rounded-full cursor-pointer text-gray-600 
             hover:bg-gray-200 transition-colors duration-300'
@@ -62,6 +65,15 @@ const Slider = () => {
           <ArrowRight size= {20}/>
         </button>
       </div>
+
+      </div>
+      
+      
+      </div>
+       
+
+      {/* Arrows */}
+      
     </div>
   )
 }
