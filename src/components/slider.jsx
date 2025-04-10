@@ -53,7 +53,7 @@ const Slider = () => {
             setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1))
           }
         >
-          <ArrowLeft size= {20}/>
+          <ArrowLeft size= {25}/>
         </button>
 
         <button
@@ -62,7 +62,7 @@ const Slider = () => {
             setIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
           }
         >
-          <ArrowRight size= {20}/>
+          <ArrowRight size= {25}/>
         </button>
       </div>
 
@@ -72,7 +72,7 @@ const Slider = () => {
       </div>
        
 
-      {/* Arrows */}
+    
       
     </div>
   )
