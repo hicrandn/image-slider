@@ -2,6 +2,12 @@
 
 A simple and responsive **Image Slider** component built with **React 19**, **Vite**, and **Tailwind CSS v4**.
 
+- ## 🚀 Image
+
+
+<img width="1336" alt="image" src="https://github.com/user-attachments/assets/50580bed-cf6f-4d36-ad11-e1f9e453df58" />
+
+
 ## 🚀 Features
 
 - Image and caption slider with smooth transitions
@@ -10,10 +16,6 @@ A simple and responsive **Image Slider** component built with **React 19**, **Vi
 - Clean and modern layout using Tailwind CSS v4
 - Active/inactive image animations with slight rotation
 
-- ## 🚀 Image
-
-
-<img width="1336" alt="image" src="https://github.com/user-attachments/assets/50580bed-cf6f-4d36-ad11-e1f9e453df58" />
 
 
 
